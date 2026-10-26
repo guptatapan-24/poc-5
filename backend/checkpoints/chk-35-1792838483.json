@@ -1,0 +1,71 @@
+{
+  "checkpoint_id": "chk-35-1792838483",
+  "timestamp": "2026-10-24T10:41:23.341507+00:00",
+  "partition_offsets": {
+    "1": 1820,
+    "0": 472
+  },
+  "previous_prices": {
+    "AAPL": 193.2,
+    "MSFT": 420.8,
+    "GOOGL": 168.66
+  },
+  "rule_states": {
+    "AAPL": {
+      "rule-24421c1b": "ARMED"
+    },
+    "MSFT": {},
+    "GOOGL": {
+      "rule-5e3c9b02": "TRIGGERED"
+    }
+  },
+  "cep_candidates": {
+    "AAPL": [
+      {
+        "message_id": "price-bd21a15a",
+        "symbol": "AAPL",
+        "price": 193.2,
+        "observed_at": "2026-10-24T10:19:20.828672+00:00"
+      }
+    ],
+    "MSFT": [
+      {
+        "message_id": "price-d056d837",
+        "symbol": "MSFT",
+        "price": 421.04,
+        "observed_at": "2026-10-24T10:19:19.820694+00:00"
+      },
+      {
+        "message_id": "price-148f3046",
+        "symbol": "MSFT",
+        "price": 420.8,
+        "observed_at": "2026-10-24T10:19:20.835840+00:00"
+      }
+    ],
+    "GOOGL": [
+      {
+        "message_id": "price-ff9d5549",
+        "symbol": "GOOGL",
+        "price": 169.23,
+        "observed_at": "2026-10-24T10:19:18.813540+00:00"
+      },
+      {
+        "message_id": "price-01362f76",
+        "symbol": "GOOGL",
+        "price": 168.82,
+        "observed_at": "2026-10-24T10:19:19.825298+00:00"
+      },
+      {
+        "message_id": "price-0e54c84f",
+        "symbol": "GOOGL",
+        "price": 168.66,
+        "observed_at": "2026-10-24T10:19:20.840902+00:00"
+      }
+    ]
+  },
+  "stats": {
+    "total_processed": 0,
+    "threshold_events": 0,
+    "cep_events": 0
+  }
+}

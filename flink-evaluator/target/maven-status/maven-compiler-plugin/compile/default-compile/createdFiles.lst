@@ -1,0 +1,10 @@
+com/stockstream/flink/model/ThresholdCrossingEvent.class
+com/stockstream/flink/StockStreamFlinkJob.class
+com/stockstream/flink/pattern/DowntrendCepPattern$3.class
+com/stockstream/flink/model/PriceUpdate.class
+com/stockstream/flink/function/ThresholdCrossingProcessFunction.class
+com/stockstream/flink/model/PriceDowntrendEvent.class
+com/stockstream/flink/pattern/DowntrendCepPattern$1.class
+com/stockstream/flink/pattern/DowntrendCepPattern$4.class
+com/stockstream/flink/pattern/DowntrendCepPattern$2.class
+com/stockstream/flink/pattern/DowntrendCepPattern.class
